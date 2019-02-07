@@ -6,10 +6,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header></header>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>Caesar's Cipher</h1>
+      <div><textarea name="enter" id="enter" placeholder="ingresa tu texto aqui " cols="40" rows="15"></textarea></div>
+      <div><input type= number  name="offset" id="offset"> ingresa tu desplatazamiento aquí </input>
+       <button id = cipher>cifrar</button>
+      <button id = descipher>descifrar</button></div>
+      <div><textarea name="newtext" id="newtext" cols="40" rows="15"></textarea></div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+  <footer></footer>
   </body>
 </html>
