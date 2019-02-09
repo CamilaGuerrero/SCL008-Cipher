@@ -44,3 +44,11 @@ describe('cipher', () => {
   });
 
 });
+
+/* otros test que quiero hacer
+que si no ingresan nada y apretan cifrar aparezca error
+que ingresen dos parametros y no solo uno
+que un parámetro sea string
+que el otro parametro sea offset 
+me faltan tres test mas 
+*/
