@@ -31,6 +31,8 @@ window.cipher = {
       }    }
         return encodeText;
  },
+
+
 decode: (inputTextDecipher, offsetDecipher) => {
     let decodeText = "";
   for(let i = 0; i < inputTextDecipher.length; i++) {
@@ -42,7 +44,7 @@ decode: (inputTextDecipher, offsetDecipher) => {
       }
       let decipherUpper1 = (decipherUpper) % 26 + 65;
       decodeText += String.fromCharCode(decipherUpper1);
-} else if ( asciiTextDecipher >=97 && asciiTextDecipher <= 122 ) {
+    } else if ( asciiTextDecipher >=97 && asciiTextDecipher <= 122 ) {
          let decipherLow = (asciiTextDecipher - 97 - parseInt(offsetDecipher));
          while (decipherLow < 0){
            decipherLow = (decipherLow + 26)
