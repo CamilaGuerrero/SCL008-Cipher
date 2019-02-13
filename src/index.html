@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" type= "image/x-icon" href="../src/índice.jpeg">
+    <link rel="shortcut icon" type= "image/x-icon" href="../src/índice.jpeg" >
   </head>
   <body>
         
@@ -13,28 +13,31 @@
     <header class="header">
       <h1>Aids Help</h1>
       <h2>Here you're safe</h2>
-      <hr>
+      <img src="../src/índice1.png" alt="logo de la imagen" title="Logo de header" class="header-image" width="100px" height="100 px">
+      <hr class="hr"> 
     </header>
+
+    <main class="main">
 
     <!-- Pagina 0 -->
       <div id="page0">
         <h2 class ="page0">
           Aquí estás seguro, somos una página confidencial. Te queremos ayudar
-          pagina 0
         </h2>
         <button id="go">Comenzemos</button>
       </div>
 
     <!-- Página 1 -->
       <div id="page1">
-      <h2>Aids Help pagina 1</h2>
+      <h2>Aids Help</h2>
       <h2>Aquí encontrarás un lugar seguro donde puedes mensajear con de forma encriptada 
         con personas que se encuentran en tu situación, también te podemos poner en contacto con especialistas
         así como te ofreceremos lugares donde también podrás pedir ayuda</h2>
+        <a class="instructions">
       <button id="instrucciones de uso">instrucciones de uso mensajeria encriptada</button>
       <button id="start">Envía tu mensaje encriptado</button>
       <button id ="help">Sitios de interés</button>
-      <img src="../src/ENCRIPTACIÓN-DE-DATOS.jpg" alt="logo de la imagen" title="Logo de encriptado">
+    </a>
     </div>
       
     <!-- Página 2 -->
@@ -46,36 +49,44 @@
       <div><textarea name="newtext" id="newtext" cols="40" rows="15"></textarea></div>
       <button id="copyBtn">copiar texto</button>
       <button id="cleanBox">limpiar</button>
+      <a class="instructions">
       <button id="origin">Ir a inicio</button>
       <button id="explain">¿Como funcionan los mensajes encriptados?</button>
       <button id="helpPages">paginas de ayuda</button>
+      </a>
     </div>
       
     <!-- Página 3 -->
       <div id="page3">
         <p>pagina 3</p>
+        <a class="instructions">
         <button id="inicio">Ir al inicio</button>
         <button id="cifrado">Ir a mi cifrado</button>
-        <button id="helping"> ir a pagina 4</button>
+        <button id="helping"> Páginas de apoyo</button>
+        </a>
         <a target="_blank" href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">¿Qué es el cifrado cesar?</a>
-     
       </div>
    
     
     <!-- Página 4 -->
     <div id="page4">
       <p>hola pagina 4</p>
+      <a class="instructions">
       <button id="init">Ir al inicio</button>
       <button id="pageCipher">Ir a mi cifrado</button>
-      <button id="explaining">a pagina 3</button>
+      <button id="explaining">Instrucciones de uso</button>
+      </a>
     </div>
-
+  </main>
   </div>
+
+
+
+  <footer>Creado por Camila Guerrero, 2019
+    todos los derechos reservados  </footer>
+
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-
-
-  <footer></footer>
   </body>
 </html>

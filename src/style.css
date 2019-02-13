@@ -1,1 +1,30 @@
-/* Acá va tu código */
+
+.header-image {
+    background-position: left;
+    display: inline-block;
+    
+}
+body{
+    text-align: center;
+    background-image: url(../src/Aids.jpg);
+    background-repeat: no-repeat; 
+   background-position: center ;
+   background-attachment: fixed;
+   background-image: linear-gradient(black) 
+}
+.hr{
+    background-color: solid black;
+    height:7px;
+}
+.instructions{
+    border-color: black;
+    background-color: #f3e5e5;
+}
+
+a{
+    font-size: 20 px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+}
