@@ -9,25 +9,36 @@ describe('cipher', () => {
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
-
+    it('Debería retornar "Error, por favor ingrese texto" si es que faltan los parámetros', () => {
+      assert.equal(cipher.encode(), 'Error, ingrese el texto a cifrar')
+    });
+    it('Debería retornar "Error, parámetro indefinido" si es que falta alguno de los parámetros', () => {
+      assert.equal(cipher.encode(5), 'Error, parámetro indefinido')
+    });
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
       assert.equal(cipher.encode("abcdefghijklmnopqrstuvwxyz",33),"hijklmnopqrstuvwxyzabcdefg")
     });
     it('debería retornar "3456789012" para "1234567890" con offset 2', () => {
       assert.equal(cipher.encode("1234567890",2),"3456789012")
     });
-  it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
       assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG")
-  });
-  it('debería retornar "!#$%&/()=" para "!#$%&/()=" con offset 2', () => {
+    });
+    it('debería retornar "!#$%&/()=" para "!#$%&/()=" con offset 2', () => {
     assert.equal(cipher.encode("!#$%&/()=",2),"!#$%&/()=")
-  });
-  });
+    });
+    });
 
   describe('cipher.decode', () => {
 
     it('debería ser una función', () => {
       assert.equal(typeof cipher.decode, 'function');
+    });
+    it('Debería retornar "Error, por favor ingrese texto" si es que faltan los parámetros', () => {
+      assert.equal(cipher.decode(), 'Error, ingrese el texto a cifrar')
+    });
+    it('Debería retornar "Error, parámetro indefinido" si es que falta alguno de los parámetros', () => {
+      assert.equal(cipher.decode(5), 'Error, parámetro indefinido')
     });
     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
       assert.equal(cipher.decode("hijklmnopqrstuvwxyzabcdefg",33),"abcdefghijklmnopqrstuvwxyz")
@@ -45,10 +56,3 @@ describe('cipher', () => {
 
 });
 
-/* otros test que quiero hacer
-que si no ingresan nada y apretan cifrar aparezca error
-que ingresen dos parametros y no solo uno
-que un parámetro sea string
-que el otro parametro sea offset 
-me faltan tres test mas 
-*/
