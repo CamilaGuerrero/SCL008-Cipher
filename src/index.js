@@ -26,16 +26,14 @@ document.getElementById("start").addEventListener("click",() => {
 });
 
 //función para cipher
-document.getElementById('cipher').addEventListener('click', (evento) => {
-    evento.preventDefault();
+document.getElementById('cipher').addEventListener('click', () => {
     let inputTextCipher = document.getElementById('enterText').value;
     let offsetCipher =(document.getElementById('offset').value);
     document.getElementById("newtext").innerHTML = window.cipher.encode(inputTextCipher, offsetCipher);
  })
 
 // función para descifrar
- document.getElementById('decipher').addEventListener('click', (evento) => {
-    evento.preventDefault();
+ document.getElementById('decipher').addEventListener('click', () => {
     let inputTextDecipher = document.getElementById('enterText').value;
     let offsetDecipher =(document.getElementById('offset').value);
     document.getElementById("newtext").innerHTML = window.cipher.decode(inputTextDecipher, offsetDecipher);
@@ -65,8 +63,7 @@ document.getElementById("page4").style.display="none";
 });
 
 //botón ir a mi inicio  pagina 4
-document.getElementById("init").addEventListener("click",(evento)=>{
-    event.preventDefault();
+document.getElementById("init").addEventListener("click",()=>{
     document.getElementById("page0").style.display="block";
     document.getElementById("page1").style.display ="none";
     document.getElementById("page2").style.display="none";
@@ -84,8 +81,7 @@ document.getElementById("instrucciones de uso").addEventListener("click",()=>{
     });
 
 //botón ir a mi inicio pagina 3
-document.getElementById("inicio").addEventListener("click",(evento)=>{
-    event.preventDefault();
+document.getElementById("inicio").addEventListener("click",()=>{
     document.getElementById("page0").style.display="block";
     document.getElementById("page1").style.display ="none";
     document.getElementById("page2").style.display="none";
