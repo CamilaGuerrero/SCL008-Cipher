@@ -4,19 +4,78 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type= "image/x-icon" href="../src/índice.jpeg">
   </head>
   <body>
-    <header></header>
-    <div id="root">
-      <h1>Caesar's Cipher</h1>
-      <div><textarea name="enter" id="enter" placeholder="ingresa tu texto aqui " cols="40" rows="15"></textarea></div>
+        
+      <div id="root">
+      
+    <header class="header">
+      <h1>Aids Help</h1>
+      <h2>Here you're safe</h2>
+      <hr>
+    </header>
+
+    <!-- Pagina 0 -->
+      <div id="page0">
+        <h2 class ="page0">
+          Aquí estás seguro, somos una página confidencial. Te queremos ayudar
+          pagina 0
+        </h2>
+        <button id="go">Comenzemos</button>
+      </div>
+
+    <!-- Página 1 -->
+      <div id="page1">
+      <h2>Aids Help pagina 1</h2>
+      <h2>Aquí encontrarás un lugar seguro donde puedes mensajear con de forma encriptada 
+        con personas que se encuentran en tu situación, también te podemos poner en contacto con especialistas
+        así como te ofreceremos lugares donde también podrás pedir ayuda</h2>
+      <button id="instrucciones de uso">instrucciones de uso mensajeria encriptada</button>
+      <button id="start">Envía tu mensaje encriptado</button>
+      <button id ="help">Sitios de interés</button>
+      <img src="" alt="logo de la imagen" title="Logo de encriptado">
+    </div>
+      
+    <!-- Página 2 -->
+    <div id="page2">
+      <div><textarea name="enter" id="entertext" placeholder="ingresa tu texto aqui " cols="40" rows="15">pagina 2</textarea></div>
       <div><input type= number  name="offset" id="offset"> ingresa tu desplatazamiento aquí </input>
        <button id = cipher>cifrar</button>
-      <button id = descipher>descifrar</button></div>
+      <button id = decipher>descifrar</button></div>
       <div><textarea name="newtext" id="newtext" cols="40" rows="15"></textarea></div>
+      <button id="copyBtn">copiar texto</button>
+      <button id="cleanBox">limpiar</button>
+      <button id="origin">Ir a inicio</button>
+      <button id="explain">¿Como funcionan los mensajes encriptados?</button>
+      <button id="helpPages">paginas de ayuda</button>
     </div>
+      
+    <!-- Página 3 -->
+      <div id="page3">
+        <p>pagina 3</p>
+        <button id="inicio">Ir al inicio</button>
+        <button id="cifrado">Ir a mi cifrado</button>
+        <button id="helping"> ir a pagina 4</button>
+        <a target="_blank" href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">¿Qué es el cifrado cesar?</a>
+     
+      </div>
+   
+    
+    <!-- Página 4 -->
+    <div id="page4">
+      <p>hola pagina 4</p>
+      <button id="init">Ir al inicio</button>
+      <button id="pageCipher">Ir a mi cifrado</button>
+      <button id="explaining">a pagina 3</button>
+    </div>
+
+  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
+
   <footer></footer>
   </body>
 </html>
