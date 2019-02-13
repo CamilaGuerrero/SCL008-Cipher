@@ -1,11 +1,16 @@
-
+header{
+    text-align: center;
+}
 .header-image {
-    background-position: left;
+    float: left;
+    margin-left: 20px;
     display: inline-block;
+    width:90px;
+    height:90px;
+
     
 }
 body{
-    text-align: center;
     background-image: url(../src/Aids.jpg);
     background-repeat: no-repeat; 
    background-position: center ;
@@ -27,4 +32,16 @@ a{
     display: inline-block;
     padding: 10px 20px;
     background-color: #333333;
+}
+
+footer{
+    background-color:#000000 ;
+    background-position: bottom;
+    margin-top: 310px;
+    clear: both;
+    padding: 40px;
+    color: #ffffff
+}
+.main{
+    text-align: center;
 }

@@ -11,9 +11,9 @@
       <div id="root">
       
     <header class="header">
+        <img src="../src/índice1.png" alt="logo de la imagen" title="Logo de header" class="header-image" >
       <h1>Aids Help</h1>
       <h2>Here you're safe</h2>
-      <img src="../src/índice1.png" alt="logo de la imagen" title="Logo de header" class="header-image" width="100px" height="100 px">
       <hr class="hr"> 
     </header>
 
@@ -42,13 +42,16 @@
       
     <!-- Página 2 -->
     <div id="page2">
-      <div><textarea name="enter" id="enterText" placeholder="ingresa tu texto aqui " cols="40" rows="15">pagina 2</textarea></div>
-      <div><input type= "number"  name="offset" id="offset" placeholder = "ingresa tu desplatazamiento aquí ">
-       <button id = "cipher">cifrar</button>
+      <div><textarea name="enter" id="enterText" placeholder="ingresa tu texto aqui " cols="40" rows="15"></textarea></div>
+      <div><input type= "number"  name="offset" id="offset" placeholder = "ingresa tu desplatazamiento aquí "></div>
+       <div><button id = "cipher">cifrar</button>
       <button id = "decipher">descifrar</button></div>
-      <div><textarea name="newtext" id="newtext" cols="40" rows="15"></textarea></div>
+      <div><textarea name="newtext" id="newtext" cols="40" rows="15" placeholder="tu nuevo texto aparecerá aquí" readonly></textarea></div>
+      <div>
       <button id="copyBtn">copiar texto</button>
       <button id="cleanBox">limpiar</button>
+      </div>
+      <br>
       <a class="instructions">
       <button id="origin">Ir a inicio</button>
       <button id="explain">¿Como funcionan los mensajes encriptados?</button>

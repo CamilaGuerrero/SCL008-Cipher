@@ -50,7 +50,8 @@ document.getElementById("copyBtn").addEventListener("click",() => {
 //Limpia las cajas de texto
 document.getElementById("cleanBox").addEventListener("click",() => {
     document.getElementById("enterText").value = "";
-    document.getElementById("newText").value = "";
+    document.getElementById("newtext").value = "";
+    document.getElementById("offset").value = "";
 });
 
 //botón ir a mi inicio pagina 2
