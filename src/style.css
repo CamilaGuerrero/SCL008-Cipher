@@ -45,3 +45,10 @@ footer{
 .main{
     text-align: center;
 }
+.imgcentro{
+float: left;
+width: 45%;
+margin-bottom:20px;
+border:2px solid #3f51b5;
+border-radius: 20px;
+}
