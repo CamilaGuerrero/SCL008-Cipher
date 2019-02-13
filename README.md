@@ -21,7 +21,7 @@ Al momento en que se nos presenta el proyecto a realizar , la primera pregunta q
 
 ###Ideación
 
-Junto con idear el el producto, planifico la manera en que lo llevaré a cabo, ya sea a través de los tiempos y las tareas que he de definir en https://trello.com/b/, ideo de que manera quiero mi interfaz para luego llegar a la idea final y que creo es mas convincente y atractiva para el usuario final. Lo principal de la interfaz es que la paleta de colores en que nos basaremos debe fomentar la creatividad, que sea llamativo a la vista, pero que también produzca un efecto a nivel neuronal. Junto con esto busco que el lugar donde se ingresa el texto y también el que imprime el nuevo texto sea lo suficientemente grande para que la letra pueda ser legible para personas que tienen la visión con un leve deterioro 
+Junto con idear el el producto, planifico la manera en que lo llevaré a cabo, ya sea a través de los tiempos y las tareas que he de definir en https://trello.com/b/ChRX9iWF/cipher-2, ideo de que manera quiero mi interfaz para luego llegar a la idea final y que creo es mas convincente y atractiva para el usuario final. Lo principal de la interfaz es que la paleta de colores en que nos basaremos debe fomentar la creatividad, que sea llamativo a la vista, pero que también produzca un efecto a nivel neuronal. Junto con esto busco que el lugar donde se ingresa el texto y también el que imprime el nuevo texto sea lo suficientemente grande para que la letra pueda ser legible para personas que tienen la visión con un leve deterioro 
 
 ### Prototipado
 
